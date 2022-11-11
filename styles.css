@@ -1,0 +1,137 @@
+/* Master styles */
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav styles*/
+.nav-wrapper {
+       display: flex;
+        justify-content: space-between;
+        padding:38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: orange;
+    text-decoration: none;
+    -o-transition-property: color;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: rgb(251, 251, 251);  
+}
+
+/* Portfolio styles*/
+
+.subtitle {
+    padding: 40px;
+    font-family: Italic;
+    text-align: center;
+    font-size: xx-large;
+}
+body {
+          background: #000;;
+    
+    color: rgb(255, 215, 0);
+}
+
+
+
+img {
+    padding: 50px;
+    float: left;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+.Moreitemstitle {
+    color: bisque;
+    
+    font-size: medium;
+    font-family: italic;
+    padding: 900px;
+    background-color:  aquamarine;
+
+}
+
+
+.laabel {
+    font-size: medium;
+
+}
+
+.laabel a{
+    color: orange;
+    text-decoration: none;
+    -o-transition-property: color;
+    transition: color 0.5s;
+
+}
+.laabel :hover {
+    border-bottom: 1px solid  #000;
+}
+.laabel a:hover {
+    color:aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
